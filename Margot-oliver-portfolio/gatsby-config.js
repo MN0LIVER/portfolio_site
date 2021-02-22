@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Portfolio by Margot Oliver`,
   },
   plugins: [
     {
@@ -12,8 +12,8 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
+          { name: `Home`, slug: `/` },
           { name: `Projects`, slug: `/projects` },
-          { name: `Instagram`, slug: `/instagram` },
           { name: `About`, slug: `/about` },
         ],
       },
@@ -34,9 +34,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jodie - @lekoarts/gatsby-theme-jodie`,
-        short_name: `jodie`,
-        description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+        name: `Margot - @lekoarts/gatsby-theme-jodie`,
+        short_name: `Margot`,
+        description: `Portfolio website for Margot Oliver built in GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#b75e09`,
