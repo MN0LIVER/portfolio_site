@@ -36,21 +36,21 @@ module.exports = {
       options: {
         name: `Margot - @lekoarts/gatsby-theme-jodie`,
         short_name: `Margot`,
-        description: `Portfolio website for Margot Oliver built in GatsbyJS`,
+        description: `Portfolio website for Margot Oliver built in GatsbyJS Original Template by LekoArts`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#b75e09`,
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/favicon2-1.svg`,
             sizes: `192x192`,
-            type: `image/png`,
+            type: `image/svg`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/favicon2-1.svg`,
             sizes: `512x512`,
-            type: `image/png`,
+            type: `image/svg`,
           },
         ],
       },
