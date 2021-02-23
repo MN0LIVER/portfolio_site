@@ -43,14 +43,14 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/favicon2-1.svg`,
+            src: `/favicon.ico`,
             sizes: `192x192`,
-            type: `image/svg`,
+            type: `image/ico`,
           },
           {
-            src: `/favicon2-1.svg`,
+            src: `/favicon.ico`,
             sizes: `512x512`,
-            type: `image/svg`,
+            type: `image/ico`,
           },
         ],
       },
