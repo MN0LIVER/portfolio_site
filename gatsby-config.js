@@ -48,7 +48,18 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#b75e09`,
         display: `standalone`,
-        icons: `src/@lekoarts/gatsby-theme-jodie/icons/favicon.png`,
+        icons: [
+          {
+            src: `src/@lekoarts/gatsby-theme-jodie/icons/favicon.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `src/@lekoarts/gatsby-theme-jodie/icons/favicon.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
       },
     },
     `gatsby-plugin-offline`,
