@@ -4,7 +4,14 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Portfolio by Margot Oliver`,
+    siteTitle: `Margot`,
+    siteTitleAlt: `Margot`,
+    siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
+    siteUrl: `https://www.margotoliverdesigns.com`,
+    siteDescription: `Portfolio site for Margot Oliver built on GatsbyJS`,
+    siteLanguage: `en`,
+    siteImage: `/pages/about/about-us-cover-image.jpg`,
+    author: `Margot Oliver Designs`,
   },
   plugins: [
     {
@@ -43,12 +50,12 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/favicon.ico`,
+            src: `static/favicon.ico`,
             sizes: `192x192`,
             type: `image/ico`,
           },
           {
-            src: `/favicon.ico`,
+            src: `static/favicon.ico`,
             sizes: `512x512`,
             type: `image/ico`,
           },
