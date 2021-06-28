@@ -26,7 +26,7 @@ jobs:
       run: npm run build
       
     - name: zip build result
-      run: tar -czvf build.tar.gz build
+      run: tar -czvf build.tar.gz out
     - name: archive zip
       uses: actions/upload-artifact@v2
       with:
