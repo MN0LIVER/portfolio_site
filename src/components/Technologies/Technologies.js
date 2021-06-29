@@ -20,6 +20,9 @@ const Technologies = () =>  (
           <ListParagraph>
             ReactJS <br />
             ExpressJS<br />
+            NextJS<br />
+            Git<br />
+            Python
           </ListParagraph>
         </ListContainer>
       </ListItem>
